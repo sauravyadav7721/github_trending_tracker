@@ -36,3 +36,4 @@ github_trending_tracker/
     ├── utils.py          # Helper functions (e.g., save to CSV)
     └── stats.py          # (Optional) Statistics on collected data
 
+
