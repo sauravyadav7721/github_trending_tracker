@@ -25,13 +25,14 @@ It then stores this data in a **SQLite database** for analysis and generates **b
 ## 📂 Folder Structure
 github_trending_tracker/
 │
-├── main.py # Entry point: runs the entire workflow
-├── requirements.txt # Required Python libraries
-├── README.md # Project documentation (this file)
+├── main.py               # Entry point: runs the entire workflow
+├── requirements.txt      # Required Python libraries
+├── README.md             # Project documentation
 │
 └── src/
-├── scraper.py # Fetches trending data from GitHub
-├── database.py # Stores data in SQLite database
-├── plotting.py # Creates charts for visualizing data
-├── utils.py # Helper functions (save to CSV, etc.)
-├── stats.py # (Optional) Statistics on collected data
+    ├── scraper.py        # Fetches trending data from GitHub
+    ├── database.py       # Stores data in SQLite database
+    ├── plotting.py       # Creates charts for visualizing data
+    ├── utils.py          # Helper functions (e.g., save to CSV)
+    └── stats.py          # (Optional) Statistics on collected data
+
